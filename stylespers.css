@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+
+.pai {
+    background-color: red;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.pesquisar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    margin-left: 40px;
+}
+
+.form {
+    margin-right: 10px;
+}
+
+.menus {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+    align-items: center;
+
+}
+
+.menus a {
+    text-decoration: none;
+    color: yellow;
+}
+.menu .menu-logo {
+    width: 15%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px;
+}
+
+.menu .menu-nav .menu-list {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    padding-right: 5px;
+}
+
+.menu .menu-nav .menu-list-item {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.banner .banner-imagem {
+    width: 1280px;
+    height: 720px;
+    padding: 1%;
+}
+
+.harry__potter {
+    display: flex;
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.harry__potter__historia {
+    display: flex;
+    gap: 1%;
+    align-items: center;
+}
+
+.harry__potter__imagem {
+    width: 15%;
+    border-radius: 2%;
+}
+
+.rony__weasley {
+    display: flex;
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.rony__weasley__historia {
+    display: flex;
+    gap: 1%;
+    align-items: center;
+}
+
+.rony__weasley__imagem {
+    width: 15%;
+    border-radius: 2%;
+}
+
+.hermione__granger {
+    display: flex;
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.hermione__granger__historia {
+    display: flex;
+    gap: 1%;
+    align-items: center;
+}
+
+.hermione__granger__imagem {
+    width: 15%;
+    border-radius: 2%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+    margin: 0px;
+    padding: 30px;
+    color: yellow;
+    margin-top: 0px;
+}
+
+
+
